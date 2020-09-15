@@ -4,3 +4,4 @@ snts = [[line.split('\t')  for line in snt.split('\n')] for snt in txt.split('\n
 from seqeval.metrics.sequence_labeling import get_entities
 for snt in snts:
     pass
+
